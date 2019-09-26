@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?familiy=Open+Sans:300');
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.menu {
+  background: black;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.menu nav {
+  float: center;
+}
+
+#lista1 {
+  float: right;
+  float: left;
+}
+
+.menu nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+.menu nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.menu nav ul li a {
+  display: block;
+  padding: 40;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contenido {
+  padding-top: 200px;
+}
+
+.menu {
+  width: 100%;
+  margin: 20;
+  overflow: hidden;
+}
+
+body {
+  background-color: #FEDF22;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+}
+
+#lista1 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+#lista1 li {
+  display: inline;
+  padding-left: 190px;
+  padding-right: 90px;
+  background-color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+#uno {
+  font-style: bold;
+  color: white;
+  text-align: center;
+  text-decoration: blink;
+  background-color: black;
+  border: 5px solid #ccc;
+  padding: 0 1rem;
+  margin: 1rem;
+  width: 50em;
+  border: 5px white solid;
+  padding: 5px;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0;
+}
+
+input[ type="text"] {
+  background-color: #202020;
+  border: 0;
+  color: white;
+  width: 100%;
+  font-size: 100px;
+}
+
+.container {
+  width: 700px;
+  background-color: black;
+  margin: 1rem;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid orange;
+  /* IMPORTANTE */
+  text-align: center
+}
+
+input [type="button"] {
+  border: none;
+  margin: 0;
+  height: 100px;
+  display: inline-block;
+  font-size: 50px;
+  outline: none;
+}
+
+input {
+  background-color: #333333;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.orange {
+  background-color: #f78c2b;
+  color: white;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.row>* {
+  flex: 1;
+}
+
+#abajo {
+  background-color: #FEDF22;
+  float: right;
+}

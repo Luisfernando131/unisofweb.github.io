@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CALCULADORA</title>
+    <link rel="icon" type="image/png" href="imagen/uni.png" />
+
+    <link rel="STYLESHEET" type="text/css" href="Estilos/estilo calculadora.css">
+    </link>
+    <script type="text/javascript" src="Javascript/ejecucioncalculadora.js"></script>
+</head>
+<body>
+    <section class="menu">
+        <nav>
+            <img src="imagen/logo.png" id="logo">
+            <br>
+            <ul id="lista1">
+                <li><a href="index.html">MENU</a> </li>
+                <li> <a href="arepitas.html">PAGINA WEB</a> </li>
+                <li> <a href="funciones.html">FUNCIONES BASICAS </a> </li>
+            </ul>
+        </nav>
+    </section>
+    <section class="contenido wrapper">
+        <div id=uno>
+            <h1>CALCULADORA</h1>
+            <br>
+            <div class="container">
+                <form name="calculator">
+                    <input type="text" name="screen" disabled />
+                    <hr>
+                    <div class="row">
+                        <input type="button" value="(" />
+                        <input type="button" value="." />
+                        <input type="button" value=")" />
+                    </div>
+                    <div class="row">
+                        <input type="button" value="1" />
+                        <input type="button" value="2" />
+                        <input type="button" value="3" />
+                        <input type="button" value="+" class="orange" />
+                    </div>
+                    <div class="row">
+                        <input type="button" value="4" />
+                        <input type="button" value="5" />
+                        <input type="button" value="6" />
+                        <input type="button" value="-" class="orange" />
+                    </div>
+                    <div class="row">
+                        <input type="button" value="7" />
+                        <input type="button" value="8" />
+                        <input type="button" value="9" />
+                        <input type="button" value="*" class="orange" />
+                    </div>
+                    <div class="row">
+                        <input type="button" value="C" id="clean" />
+                        <input type="button" value="0" />
+                        <input type="button" value="=" />
+                        <input type="button" value="/" class="orange" />
+                    </div>
+                </form>
+                <hr />
+            </div>
+        </div>
+    </section>
+    <footer>
+            <div>
+                <img src="imagen/logo12.jpg" id=abajo />
+            </div>
+            <br>
+        </footer>
+</body>
+</html>
